@@ -24,6 +24,8 @@ python -m http.server 8765 --bind 127.0.0.1 --directory dist
 
 论文插图来自作者提供的材料或正式论文，保留原图内容；PDF 按正式论文页面、DOI 或 arXiv 链接提供。
 
+精选论文优先展示近五年成果，目前为 2024–2026 年的 12 篇。9 篇展示原论文 framework 或机制总览图；没有可用原图的论文使用文字条目。News 分别记录录用和正式发表进展，完整论文列表链接到 Google Scholar。
+
 ## 发布到 GitHub Pages
 
 当前账号是 `XiaobinHong`，用户主页仓库应命名为 `XiaobinHong.github.io`。

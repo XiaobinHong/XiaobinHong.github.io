@@ -79,6 +79,11 @@ main>.about-section { margin-bottom:10px; }
 .link-separator { color:#7e8a92; margin:0 6px; font-weight:400; }
 .paper-marker { color:var(--muted); text-align:center; border:1px solid var(--line); padding:50px 15px; }
 .paper-marker span { display:block; }
+.publication:not(.has-image) { display:block; }
+.publication:not(.has-image) .paper-marker { display:none; }
+.publication:not(.has-image) .paper-meta { display:block; }
+.publication:not(.has-image) .paper-meta>.venue { display:inline; color:var(--blue); font-weight:600; }
+.publication:not(.has-image) .paper-meta>.venue+span:not(.date-note) { display:inline; margin-left:7px; }
 .tags { display:none; }
 .project { margin-bottom:20px; }
 .project h3 { font-size:16px; margin-bottom:6px; }
